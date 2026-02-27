@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+
+<div class="product-detail">
+  <img [src]="product.image" />
+  <h2>{{ product.name }}</h2>
+  <p>{{ product.price | currency: currentCurrency }}</p>
+  <button (click)="addToCart(product)">Add to cart</button>
+</div>
+
+<app-footer></app-footer>
