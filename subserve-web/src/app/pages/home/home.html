@@ -2,10 +2,17 @@
 
 <section class="hero">
   <h1>Fresh food. Everyday essentials. Affordable tech.</h1>
+  <p>Built for our communities. Powered by local farmers.</p>
+  <button routerLink="/products">Shop now</button>
 </section>
 
-<section class="specials">
-  <!--app-product-card *ngFor="let p of specials" [product]="p"></app-product-card-->
+<section class="products">
+  <h2>Featured products</h2>
+
+  <app-product-card
+    *ngFor="let product of products"
+    [product]="product">
+  </app-product-card>
 </section>
 
 <app-footer></app-footer>

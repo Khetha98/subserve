@@ -1,1 +1,20 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <div class="logo">Subserve</div>
+
+  <input
+    type="text"
+    placeholder="Search products..."
+    (keyup.enter)="onSearch(search.value)"
+    #search
+  />
+
+  <div class="actions">
+    <select #currencySelect (change)="changeCurrency(currencySelect.value)">
+    <option value="ZAR">ZAR</option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    </select>
+
+    <a routerLink="/cart">🛒 Cart</a>
+  </div>
+</nav>
