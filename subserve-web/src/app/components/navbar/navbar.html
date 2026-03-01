@@ -1,20 +1,32 @@
-<nav class="navbar">
-  <div class="logo">Subserve</div>
+<nav class="bg-[#01352c] text-[#e1eacd] px-6 py-4 flex items-center justify-between gap-4">
+  <div class="logo text-lg font-semibold tracking-wide">
+    Subserve
+  </div>
 
   <input
     type="text"
     placeholder="Search products..."
+    class="px-3 py-2 rounded-md text-[#01352c] bg-[#e1eacd] placeholder-[#01352c]/60 focus:outline-none focus:ring-2 focus:ring-[#61b390] w-full max-w-xs"
     (keyup.enter)="onSearch(search.value)"
     #search
   />
 
-  <div class="actions">
-    <select #currencySelect (change)="changeCurrency(currencySelect.value)">
-    <option value="ZAR">ZAR</option>
-    <option value="USD">USD</option>
-    <option value="EUR">EUR</option>
+  <div class="actions flex items-center gap-4">
+    <select
+      #currencySelect
+      (change)="changeCurrency(currencySelect.value)"
+      class="px-2 py-1 rounded-md bg-[#bad8b6] text-[#01352c] focus:outline-none focus:ring-2 focus:ring-[#61b390]"
+    >
+      <option value="ZAR">ZAR</option>
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
     </select>
 
-    <a routerLink="/cart">🛒 Cart</a>
+    <a
+      routerLink="/cart"
+      class="flex items-center gap-1 text-sm hover:text-[#61b390] transition"
+    >
+      🛒 Cart
+    </a>
   </div>
 </nav>
