@@ -1,5 +1,6 @@
 package co.za.subserve.subserve_backend.model;
 
+import co.za.subserve.subserve_backend.enums.PaymentStatus;
 import co.za.subserve.subserve_backend.enums.TransactionProvider;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,13 +18,13 @@ import java.util.UUID;
 @ToString
 public class PaymentTransaction {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private UUID orderId;
     private TransactionProvider provider;
     private String providerReference;
     private String amount;
     private String currency;
-- status
+    private PaymentStatus status;
     private String createdAt;
 }

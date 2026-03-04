@@ -16,7 +16,7 @@ import java.util.UUID;
 @ToString
 public class OrderItem {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private UUID orderId;
     private String productName;

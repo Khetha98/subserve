@@ -1,5 +1,6 @@
 package co.za.subserve.subserve_backend.model;
 
+import co.za.subserve.subserve_backend.enums.DeliveryStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,11 +17,11 @@ import java.util.UUID;
 @ToString
 public class DeliveryTracking {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private UUID orderId;
     private String courierName;
     private String trackingNumber;
- status
+    private DeliveryStatus status;
     private String lastUpdated;
 }

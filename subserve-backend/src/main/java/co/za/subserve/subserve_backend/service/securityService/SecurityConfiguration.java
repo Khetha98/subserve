@@ -46,9 +46,6 @@ public class SecurityConfiguration {
 
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/auth/**").permitAll()
-                        .requestMatchers("/api/verify/**").permitAll()
-                        .requestMatchers("/api/contact/**").permitAll()
-                        .requestMatchers("/templates/**").authenticated()
                         .requestMatchers("/admin/**").hasRole("SUPER_ADMIN")
                         .anyRequest().authenticated()
                 )
@@ -74,8 +71,8 @@ public class SecurityConfiguration {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOriginPatterns(List.of(
-                "http://localhost:3000",
-                "http://localhost:3001",
+                "http://localhost:4200",
+                "http://localhost:4201",
                 prodAllowedOrigin
 
         ));

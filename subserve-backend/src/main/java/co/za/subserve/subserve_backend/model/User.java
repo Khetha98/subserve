@@ -18,9 +18,10 @@ import java.util.UUID;
 @Getter
 @Setter
 @ToString
+@Table(name = "app_user")
 public class User implements UserDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     @Column(nullable = false)
     private String fullName;

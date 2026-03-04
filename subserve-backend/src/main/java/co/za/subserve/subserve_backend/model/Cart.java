@@ -17,7 +17,7 @@ import java.util.UUID;
 @ToString
 public class Cart {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private UUID userId;

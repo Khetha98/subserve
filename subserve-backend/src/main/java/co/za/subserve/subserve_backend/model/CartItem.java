@@ -16,10 +16,10 @@ import java.util.UUID;
 @ToString
 public class CartItem {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private UUID cartId;
-    private ProductSnapshotId productSnapshotId;
+    private UUID productSnapshotId;
     private int quantity;
     private String priceAtTime;
 }
