@@ -1,32 +1,48 @@
-<nav class="bg-[#01352c] text-[#e1eacd] px-6 py-4 flex items-center justify-between gap-4">
-  <div class="logo text-lg font-semibold tracking-wide">
-    Subserve
+<nav class="bg-[#01352c] text-[#e1eacd] px-6 py-4 flex items-center justify-between">
+
+  <!-- Left -->
+  <div class="flex items-center gap-4">
+    <button (click)="toggleMenu()" class="text-xl">☰</button>
+
+    <a routerLink="/" class="flex items-center gap-2 font-semibold text-lg">
+      <img src="assets/logo.png" class="w-8 h-8 rounded-full" />
+      Subserve
+    </a>
   </div>
 
+  <!-- Center -->
   <input
     type="text"
     placeholder="Search products..."
-    class="px-3 py-2 rounded-md text-[#01352c] bg-[#e1eacd] placeholder-[#01352c]/60 focus:outline-none focus:ring-2 focus:ring-[#61b390] w-full max-w-xs"
+    class="px-3 py-2 rounded-md text-[#01352c] bg-[#e1eacd] w-full max-w-sm"
     (keyup.enter)="onSearch(search.value)"
     #search
   />
 
-  <div class="actions flex items-center gap-4">
+  <!-- Right -->
+  <div class="flex items-center gap-4">
+
     <select
       #currencySelect
       (change)="changeCurrency(currencySelect.value)"
-      class="px-2 py-1 rounded-md bg-[#bad8b6] text-[#01352c] focus:outline-none focus:ring-2 focus:ring-[#61b390]"
+      class="px-2 py-1 rounded-md bg-[#bad8b6] text-[#01352c]"
     >
       <option value="ZAR">ZAR</option>
       <option value="USD">USD</option>
       <option value="EUR">EUR</option>
     </select>
 
-    <a
-      routerLink="/cart"
-      class="flex items-center gap-1 text-sm hover:text-[#61b390] transition"
-    >
-      🛒 Cart
-    </a>
+    <a routerLink="/cart">🛒</a>
+
+    <ng-container *ngIf="isLoggedIn; else guest">
+      <div class="w-8 h-8 bg-[#61b390] rounded-full flex items-center justify-center cursor-pointer">
+        K
+      </div>
+    </ng-container>
+
+    <ng-template #guest>
+      <a routerLink="/login">Login</a>
+    </ng-template>
+
   </div>
 </nav>
