@@ -1,21 +1,21 @@
-2026-03-04T22:24:22.375+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 383571 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
-2026-03-04T22:24:22.379+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-03-04T22:24:22.439+02:00  INFO 383571 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-04T22:24:22.440+02:00  INFO 383571 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-04T22:24:23.058+02:00  INFO 383571 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-04T22:24:23.115+02:00  INFO 383571 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
-2026-03-04T22:24:23.658+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
-2026-03-04T22:24:23.671+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-04T22:24:23.672+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-04T22:24:23.698+02:00  INFO 383571 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1258 ms
-2026-03-04T22:24:23.834+02:00  INFO 383571 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-04T22:24:23.876+02:00  INFO 383571 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-04T22:24:24.256+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-04T22:24:24.279+02:00  INFO 383571 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-04T22:24:24.586+02:00  INFO 383571 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
-2026-03-04T22:24:24.587+02:00  INFO 383571 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-04T22:24:24.613+02:00  WARN 383571 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-04T22:24:24.637+02:00  INFO 383571 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-05T00:48:33.738+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 508896 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
+2026-03-05T00:48:33.742+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T00:48:33.794+02:00  INFO 508896 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-05T00:48:33.794+02:00  INFO 508896 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-05T00:48:34.471+02:00  INFO 508896 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-05T00:48:34.531+02:00  INFO 508896 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2026-03-05T00:48:35.131+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-03-05T00:48:35.143+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T00:48:35.144+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05T00:48:35.175+02:00  INFO 508896 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1379 ms
+2026-03-05T00:48:35.324+02:00  INFO 508896 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-05T00:48:35.372+02:00  INFO 508896 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-05T00:48:35.847+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-05T00:48:35.872+02:00  INFO 508896 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-05T00:48:36.206+02:00  INFO 508896 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
+2026-03-05T00:48:36.207+02:00  INFO 508896 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-05T00:48:36.237+02:00  WARN 508896 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05T00:48:36.257+02:00  INFO 508896 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/subserve-backend]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -27,41 +27,46 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-04T22:24:25.586+02:00  INFO 383571 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-04T22:24:25.691+02:00  INFO 383571 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:24:25.749+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-04T22:24:25.896+02:00  WARN 383571 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-04T22:24:26.079+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
-2026-03-04T22:24:26.080+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:24:26.140+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:22:21.261762
-2026-03-04T22:24:26.140+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Sync not needed yet
-2026-03-04T22:24:26.165+02:00  INFO 383571 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-03-04T22:24:26.166+02:00  WARN 383571 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-03-04T22:24:26.517+02:00  INFO 383571 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
-2026-03-04T22:24:26.526+02:00  INFO 383571 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 4.599 seconds (process running for 5.044)
-2026-03-04T22:28:09.854+02:00  INFO 383571 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-04T22:28:09.859+02:00  INFO 383571 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-04T22:28:09.864+02:00  INFO 383571 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:28:09.868+02:00  INFO 383571 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-04T22:28:09.882+02:00  INFO 383571 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-04T22:28:46.955+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 387516 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
-2026-03-04T22:28:46.959+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-03-04T22:28:47.012+02:00  INFO 387516 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-04T22:28:47.012+02:00  INFO 387516 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-04T22:28:47.632+02:00  INFO 387516 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-04T22:28:47.684+02:00  INFO 387516 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
-2026-03-04T22:28:48.237+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
-2026-03-04T22:28:48.262+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-04T22:28:48.263+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-04T22:28:48.297+02:00  INFO 387516 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1284 ms
-2026-03-04T22:28:48.423+02:00  INFO 387516 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-04T22:28:48.462+02:00  INFO 387516 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-04T22:28:48.835+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-04T22:28:48.861+02:00  INFO 387516 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-04T22:28:49.182+02:00  INFO 387516 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
-2026-03-04T22:28:49.184+02:00  INFO 387516 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-04T22:28:49.218+02:00  WARN 387516 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-04T22:28:49.242+02:00  INFO 387516 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-05T00:48:37.313+02:00  INFO 508896 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05T00:48:37.446+02:00  INFO 508896 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T00:48:37.521+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-05T00:48:37.720+02:00  WARN 508896 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-05T00:48:37.949+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
+2026-03-05T00:48:37.950+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
+2026-03-05T00:48:38.018+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-05T00:46:32.789874
+2026-03-05T00:48:38.019+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
+2026-03-05T00:48:38.019+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
+2026-03-05T00:48:38.687+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
+2026-03-05T00:48:38.771+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo raw result: [{id=9, name=Apples, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true}, {id=11, name=Pears, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true}, {id=1, name=Tips, list_price=1.0, qty_available=0.0, type=consu, sale_ok=true, active=true}, {id=13, name=garlic, list_price=40.0, qty_available=60.0, type=consu, sale_ok=true, active=true}, {id=12, name=plums, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true}, {id=10, name=strawberries, list_price=40.0, qty_available=40.0, type=consu, sale_ok=true, active=true}, {id=14, name=watermelon, list_price=30.0, qty_available=80.0, type=consu, sale_ok=true, active=true}]
+2026-03-05T00:48:38.773+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 7 products from Odoo
+2026-03-05T00:48:39.183+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
+2026-03-05T00:48:39.220+02:00  INFO 508896 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-03-05T00:48:39.221+02:00  WARN 508896 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-03-05T00:48:39.626+02:00  INFO 508896 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-03-05T00:48:39.633+02:00  INFO 508896 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 6.402 seconds (process running for 6.856)
+2026-03-05T00:55:40.666+02:00  INFO 508896 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05T00:55:40.671+02:00  INFO 508896 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-05T00:55:40.679+02:00  INFO 508896 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T00:55:40.683+02:00  INFO 508896 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-05T00:55:40.701+02:00  INFO 508896 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-05T00:59:59.099+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 518639 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
+2026-03-05T00:59:59.102+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T00:59:59.147+02:00  INFO 518639 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-05T00:59:59.148+02:00  INFO 518639 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-05T00:59:59.882+02:00  INFO 518639 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-05T00:59:59.946+02:00  INFO 518639 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2026-03-05T01:00:00.559+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-03-05T01:00:00.574+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T01:00:00.575+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05T01:00:00.608+02:00  INFO 518639 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1460 ms
+2026-03-05T01:00:00.780+02:00  INFO 518639 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-05T01:00:00.827+02:00  INFO 518639 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-05T01:00:01.290+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-05T01:00:01.334+02:00  INFO 518639 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-05T01:00:01.686+02:00  INFO 518639 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
+2026-03-05T01:00:01.687+02:00  INFO 518639 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-05T01:00:01.724+02:00  WARN 518639 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05T01:00:01.756+02:00  INFO 518639 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/subserve-backend]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -73,65 +78,126 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-04T22:28:50.205+02:00  INFO 387516 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-04T22:28:50.311+02:00  INFO 387516 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:28:50.392+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-04T22:28:50.545+02:00  WARN 387516 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-04T22:28:50.701+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
-2026-03-04T22:28:50.702+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:28:50.753+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:22:21.261762
-2026-03-04T22:28:50.754+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:28:50.754+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:28:51.367+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:28:51.431+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@26649f1a
-2026-03-04T22:28:51.432+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 14 products from Odoo
-2026-03-04T22:28:51.742+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:28:51.775+02:00  INFO 387516 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-03-04T22:28:51.775+02:00  WARN 387516 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-03-04T22:28:52.153+02:00  INFO 387516 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
-2026-03-04T22:28:52.160+02:00  INFO 387516 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 5.645 seconds (process running for 6.089)
-2026-03-04T22:29:38.245+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-04T22:29:38.246+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-04T22:29:38.247+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-04T22:29:38.273+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:29:38.277+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:28:51.720270
-2026-03-04T22:29:38.277+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:29:38.277+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:29:38.779+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:29:38.843+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@908d84f
-2026-03-04T22:29:38.845+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Fetched 14 products from Odoo
-2026-03-04T22:29:39.043+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:29:39.774+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:29:39.778+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:29:39.032970
-2026-03-04T22:29:39.778+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:29:39.778+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:29:40.345+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:29:40.389+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@63fd0224
-2026-03-04T22:29:40.390+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Fetched 14 products from Odoo
-2026-03-04T22:29:40.655+02:00  INFO 387516 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:37:14.503+02:00  INFO 387516 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-04T22:37:14.507+02:00  INFO 387516 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-04T22:37:14.519+02:00  INFO 387516 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:37:14.525+02:00  INFO 387516 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-04T22:37:14.539+02:00  INFO 387516 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-04T22:37:25.345+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 395122 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
-2026-03-04T22:37:25.348+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-03-04T22:37:25.400+02:00  INFO 395122 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-04T22:37:25.401+02:00  INFO 395122 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-04T22:37:26.028+02:00  INFO 395122 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-04T22:37:26.086+02:00  INFO 395122 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
-2026-03-04T22:37:26.614+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
-2026-03-04T22:37:26.629+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-04T22:37:26.630+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-04T22:37:26.664+02:00  INFO 395122 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1262 ms
-2026-03-04T22:37:26.816+02:00  INFO 395122 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-04T22:37:26.855+02:00  INFO 395122 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-04T22:37:27.288+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-04T22:37:27.311+02:00  INFO 395122 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-04T22:37:27.623+02:00  INFO 395122 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
-2026-03-04T22:37:27.624+02:00  INFO 395122 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-04T22:37:27.653+02:00  WARN 395122 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-04T22:37:27.684+02:00  INFO 395122 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-05T01:00:02.850+02:00  INFO 518639 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05T01:00:02.995+02:00  INFO 518639 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:00:03.061+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-05T01:00:03.217+02:00  WARN 518639 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-05T01:00:03.412+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
+2026-03-05T01:00:03.412+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
+2026-03-05T01:00:03.469+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-05T00:48:39.161394
+2026-03-05T01:00:03.469+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
+2026-03-05T01:00:03.469+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
+2026-03-05T01:00:04.133+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
+2026-03-05T01:00:04.225+02:00  INFO 518639 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo raw result: [{id=9, name=Apples, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=2, name=Down Payment (POS), list_price=0.0, qty_available=0.0, type=service, sale_ok=true, active=true, categ_id=[3, Services], description_sale=false}, {id=8, name=Expenses, list_price=1.0, qty_available=0.0, type=service, sale_ok=true, active=true, categ_id=[2, Expenses], description_sale=false}, {id=11, name=Pears, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=1, name=Tips, list_price=1.0, qty_available=0.0, type=consu, sale_ok=true, active=true, categ_id=[3, Services], description_sale=false}, {id=13, name=garlic, list_price=40.0, qty_available=60.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=12, name=plums, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=10, name=strawberries, list_price=40.0, qty_available=40.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=14, name=watermelon, list_price=30.0, qty_available=80.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}]
+2026-03-05T01:00:04.228+02:00  WARN 518639 --- [subserve-backend] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService': Error creating bean with name 'productService' defined in file [/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes/co/za/subserve/subserve_backend/service/productService/ProductService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'productSyncService': Invocation of init method failed
+2026-03-05T01:00:04.228+02:00  INFO 518639 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:00:04.231+02:00  INFO 518639 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-05T01:00:04.245+02:00  INFO 518639 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-05T01:00:04.248+02:00  INFO 518639 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-05T01:00:04.258+02:00  INFO 518639 --- [subserve-backend] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-05T01:00:04.277+02:00 ERROR 518639 --- [subserve-backend] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService': Error creating bean with name 'productService' defined in file [/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes/co/za/subserve/subserve_backend/service/productService/ProductService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'productSyncService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:748) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:493) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.5.jar:7.0.5]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.3.jar:4.0.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.3.jar:4.0.3]
+	at co.za.subserve.subserve_backend.SubserveBackendApplication.main(SubserveBackendApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.3.jar:4.0.3]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productService' defined in file [/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes/co/za/subserve/subserve_backend/service/productService/ProductService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'productSyncService': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1704) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productSyncService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:220) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:426) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1809) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 38 common frames omitted
+Caused by: java.lang.ClassCastException: class java.lang.Boolean cannot be cast to class java.lang.String (java.lang.Boolean and java.lang.String are in module java.base of loader 'bootstrap')
+	at co.za.subserve.subserve_backend.service.odooClientService.OdooClient.lambda$mapToDTO$0(OdooClient.java:117) ~[classes/:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
+	at co.za.subserve.subserve_backend.service.odooClientService.OdooClient.mapToDTO(OdooClient.java:135) ~[classes/:na]
+	at co.za.subserve.subserve_backend.service.odooClientService.OdooClient.fetchProducts(OdooClient.java:100) ~[classes/:na]
+	at co.za.subserve.subserve_backend.service.productService.ProductSyncService.syncIfNeeded(ProductSyncService.java:48) ~[classes/:na]
+	at co.za.subserve.subserve_backend.service.productService.ProductSyncService.init(ProductSyncService.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:397) ~[spring-beans-7.0.5.jar:7.0.5]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:217) ~[spring-beans-7.0.5.jar:7.0.5]
+	... 51 common frames omitted
+
+2026-03-05T01:04:26.632+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 522432 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
+2026-03-05T01:04:26.635+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T01:04:26.684+02:00  INFO 522432 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-05T01:04:26.685+02:00  INFO 522432 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-05T01:04:27.359+02:00  INFO 522432 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-05T01:04:27.418+02:00  INFO 522432 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2026-03-05T01:04:27.971+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-03-05T01:04:27.985+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T01:04:27.985+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05T01:04:28.016+02:00  INFO 522432 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1331 ms
+2026-03-05T01:04:28.163+02:00  INFO 522432 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-05T01:04:28.209+02:00  INFO 522432 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-05T01:04:28.652+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-05T01:04:28.677+02:00  INFO 522432 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-05T01:04:29.024+02:00  INFO 522432 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
+2026-03-05T01:04:29.026+02:00  INFO 522432 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-05T01:04:29.060+02:00  WARN 522432 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05T01:04:29.088+02:00  INFO 522432 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/subserve-backend]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -143,65 +209,46 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-04T22:37:28.696+02:00  INFO 395122 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-04T22:37:28.804+02:00  INFO 395122 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:37:28.867+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-04T22:37:29.027+02:00  WARN 395122 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-04T22:37:29.233+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
-2026-03-04T22:37:29.234+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:37:29.289+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:29:40.644039
-2026-03-04T22:37:29.290+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:37:29.290+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:37:29.924+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:37:29.963+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@6903e64f
-2026-03-04T22:37:29.964+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 0 products from Odoo
-2026-03-04T22:37:30.119+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:37:30.150+02:00  INFO 395122 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-03-04T22:37:30.150+02:00  WARN 395122 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-03-04T22:37:30.520+02:00  INFO 395122 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
-2026-03-04T22:37:30.533+02:00  INFO 395122 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 5.638 seconds (process running for 6.076)
-2026-03-04T22:38:37.650+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-04T22:38:37.650+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-04T22:38:37.652+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-03-04T22:38:37.678+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:38:37.681+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:37:30.097483
-2026-03-04T22:38:37.682+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:38:37.682+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:38:38.238+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:38:38.256+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@8154bef
-2026-03-04T22:38:38.257+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Fetched 0 products from Odoo
-2026-03-04T22:38:38.280+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:38:39.092+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:38:39.097+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:38:38.264564
-2026-03-04T22:38:39.098+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:38:39.098+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:38:39.693+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:38:39.710+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@ef3436
-2026-03-04T22:38:39.710+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Fetched 0 products from Odoo
-2026-03-04T22:38:39.724+02:00  INFO 395122 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:41:11.393+02:00  INFO 395122 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-04T22:41:11.398+02:00  INFO 395122 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-04T22:41:11.407+02:00  INFO 395122 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:41:11.412+02:00  INFO 395122 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-04T22:41:11.426+02:00  INFO 395122 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-04T22:41:30.895+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 398676 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
-2026-03-04T22:41:30.898+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-03-04T22:41:30.946+02:00  INFO 398676 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-03-04T22:41:30.946+02:00  INFO 398676 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-03-04T22:41:31.556+02:00  INFO 398676 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-04T22:41:31.641+02:00  INFO 398676 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
-2026-03-04T22:41:32.178+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
-2026-03-04T22:41:32.190+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-04T22:41:32.190+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
-2026-03-04T22:41:32.219+02:00  INFO 398676 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1272 ms
-2026-03-04T22:41:32.347+02:00  INFO 398676 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-03-04T22:41:32.392+02:00  INFO 398676 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
-2026-03-04T22:41:32.837+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-04T22:41:32.862+02:00  INFO 398676 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-04T22:41:33.161+02:00  INFO 398676 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57647c28
-2026-03-04T22:41:33.162+02:00  INFO 398676 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-04T22:41:33.187+02:00  WARN 398676 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-03-04T22:41:33.207+02:00  INFO 398676 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-05T01:04:30.173+02:00  INFO 522432 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05T01:04:30.291+02:00  INFO 522432 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:04:30.361+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-05T01:04:30.516+02:00  WARN 522432 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-05T01:04:30.708+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
+2026-03-05T01:04:30.709+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
+2026-03-05T01:04:30.771+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-05T00:48:39.161394
+2026-03-05T01:04:30.772+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
+2026-03-05T01:04:30.772+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
+2026-03-05T01:04:31.446+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
+2026-03-05T01:04:31.549+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo raw result: [{id=9, name=Apples, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=2, name=Down Payment (POS), list_price=0.0, qty_available=0.0, type=service, sale_ok=true, active=true, categ_id=[3, Services], description_sale=false}, {id=8, name=Expenses, list_price=1.0, qty_available=0.0, type=service, sale_ok=true, active=true, categ_id=[2, Expenses], description_sale=false}, {id=11, name=Pears, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=1, name=Tips, list_price=1.0, qty_available=0.0, type=consu, sale_ok=true, active=true, categ_id=[3, Services], description_sale=false}, {id=13, name=garlic, list_price=40.0, qty_available=60.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=12, name=plums, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=10, name=strawberries, list_price=40.0, qty_available=40.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=14, name=watermelon, list_price=30.0, qty_available=80.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}]
+2026-03-05T01:04:31.550+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 9 products from Odoo
+2026-03-05T01:04:31.885+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
+2026-03-05T01:04:31.922+02:00  INFO 522432 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-03-05T01:04:31.922+02:00  WARN 522432 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-03-05T01:04:32.326+02:00  INFO 522432 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-03-05T01:04:32.343+02:00  INFO 522432 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 6.176 seconds (process running for 6.658)
+2026-03-05T01:07:32.998+02:00  INFO 522432 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05T01:07:33.001+02:00  INFO 522432 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-05T01:07:33.013+02:00  INFO 522432 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:07:33.018+02:00  INFO 522432 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-05T01:07:33.031+02:00  INFO 522432 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-05T01:07:41.105+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 525255 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
+2026-03-05T01:07:41.108+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T01:07:41.168+02:00  INFO 525255 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-05T01:07:41.168+02:00  INFO 525255 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-05T01:07:41.772+02:00  INFO 525255 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-05T01:07:41.832+02:00  INFO 525255 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2026-03-05T01:07:42.361+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-03-05T01:07:42.376+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T01:07:42.377+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05T01:07:42.412+02:00  INFO 525255 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1243 ms
+2026-03-05T01:07:42.564+02:00  INFO 525255 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-05T01:07:42.605+02:00  INFO 525255 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-05T01:07:43.001+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-05T01:07:43.024+02:00  INFO 525255 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-05T01:07:43.322+02:00  INFO 525255 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
+2026-03-05T01:07:43.323+02:00  INFO 525255 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-05T01:07:43.353+02:00  WARN 525255 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05T01:07:43.385+02:00  INFO 525255 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:postgresql://localhost:5432/subserve-backend]
 	Database driver: PostgreSQL JDBC Driver
 	Database dialect: PostgreSQLDialect
@@ -213,44 +260,76 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-04T22:41:34.244+02:00  INFO 398676 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-04T22:41:34.350+02:00  INFO 398676 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T22:41:34.410+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-03-04T22:41:34.585+02:00  WARN 398676 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-04T22:41:34.768+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
-2026-03-04T22:41:34.769+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:41:34.829+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:38:39.716906
-2026-03-04T22:41:34.829+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:41:34.829+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:41:35.441+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:41:35.521+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@59c3cac
-2026-03-04T22:41:35.522+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 9 products from Odoo
-2026-03-04T22:41:35.936+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:41:35.979+02:00  INFO 398676 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-03-04T22:41:35.980+02:00  WARN 398676 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-03-04T22:41:36.299+02:00  INFO 398676 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
-2026-03-04T22:41:36.309+02:00  INFO 398676 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 5.862 seconds (process running for 6.304)
-2026-03-04T22:42:46.667+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-04T22:42:46.667+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-04T22:42:46.668+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-04T22:42:46.692+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:42:46.696+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:41:35.914422
-2026-03-04T22:42:46.696+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:42:46.696+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:42:47.198+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:42:47.262+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@4ed7588b
-2026-03-04T22:42:47.263+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Fetched 9 products from Odoo
-2026-03-04T22:42:47.462+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-1] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T22:42:48.265+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
-2026-03-04T22:42:48.269+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-04T22:42:47.451926
-2026-03-04T22:42:48.269+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
-2026-03-04T22:42:48.269+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
-2026-03-04T22:42:48.865+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
-2026-03-04T22:42:48.914+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Odoo fetch response: co.za.subserve.subserve_backend.dto.response.OdooResponse@78ae8ff3
-2026-03-04T22:42:48.915+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Fetched 9 products from Odoo
-2026-03-04T22:42:49.051+02:00  INFO 398676 --- [subserve-backend] [http-nio-9091-exec-2] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
-2026-03-04T23:54:30.626+02:00  INFO 398676 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-04T23:54:30.629+02:00  INFO 398676 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-04T23:54:30.641+02:00  INFO 398676 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-04T23:54:30.646+02:00  INFO 398676 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-04T23:54:30.657+02:00  INFO 398676 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-05T01:07:44.416+02:00  INFO 525255 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05T01:07:44.487+02:00  INFO 525255 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:07:44.552+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-05T01:07:44.692+02:00  WARN 525255 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-05T01:07:44.865+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
+2026-03-05T01:07:44.866+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
+2026-03-05T01:07:44.923+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-05T01:04:31.862943
+2026-03-05T01:07:44.923+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
+2026-03-05T01:07:44.923+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
+2026-03-05T01:07:45.553+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
+2026-03-05T01:07:45.642+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo raw result: [{id=9, name=Apples, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=11, name=Pears, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=1, name=Tips, list_price=1.0, qty_available=0.0, type=consu, sale_ok=true, active=true, categ_id=[3, Services], description_sale=false}, {id=13, name=garlic, list_price=40.0, qty_available=60.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=12, name=plums, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=10, name=strawberries, list_price=40.0, qty_available=40.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=14, name=watermelon, list_price=30.0, qty_available=80.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}]
+2026-03-05T01:07:45.643+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 7 products from Odoo
+2026-03-05T01:07:45.894+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
+2026-03-05T01:07:45.924+02:00  INFO 525255 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-03-05T01:07:45.925+02:00  WARN 525255 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-03-05T01:07:46.245+02:00  INFO 525255 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-03-05T01:07:46.253+02:00  INFO 525255 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 5.588 seconds (process running for 6.049)
+2026-03-05T01:10:38.364+02:00  INFO 525255 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05T01:10:38.368+02:00  INFO 525255 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-05T01:10:38.381+02:00  INFO 525255 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:10:38.387+02:00  INFO 525255 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-05T01:10:38.401+02:00  INFO 525255 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-05T01:10:45.232+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Starting SubserveBackendApplication using Java 21.0.10 with PID 527948 (/home/khetha/projects/subserve-tools/subserve/subserve-backend/target/classes started by khetha in /home/khetha/projects/subserve-tools/subserve/subserve-backend)
+2026-03-05T01:10:45.235+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-05T01:10:45.285+02:00  INFO 527948 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-05T01:10:45.285+02:00  INFO 527948 --- [subserve-backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-05T01:10:45.996+02:00  INFO 527948 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-05T01:10:46.063+02:00  INFO 527948 --- [subserve-backend] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2026-03-05T01:10:46.676+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-03-05T01:10:46.689+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-05T01:10:46.690+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-05T01:10:46.726+02:00  INFO 527948 --- [subserve-backend] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1440 ms
+2026-03-05T01:10:46.872+02:00  INFO 527948 --- [subserve-backend] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-05T01:10:46.917+02:00  INFO 527948 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-05T01:10:47.373+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-05T01:10:47.402+02:00  INFO 527948 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-05T01:10:47.738+02:00  INFO 527948 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bf15e44
+2026-03-05T01:10:47.743+02:00  INFO 527948 --- [subserve-backend] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-05T01:10:47.787+02:00  WARN 527948 --- [subserve-backend] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05T01:10:47.808+02:00  INFO 527948 --- [subserve-backend] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/subserve-backend]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: subserve-backend/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-05T01:10:48.840+02:00  INFO 527948 --- [subserve-backend] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05T01:10:48.943+02:00  INFO 527948 --- [subserve-backend] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:10:49.012+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-05T01:10:49.179+02:00  WARN 527948 --- [subserve-backend] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-05T01:10:49.370+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : ProductSyncService initialized — running syncIfNeeded()
+2026-03-05T01:10:49.370+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Checking if product sync is needed...
+2026-03-05T01:10:49.437+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Last synced at: 2026-03-05T01:07:45.871741
+2026-03-05T01:10:49.438+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Syncing products from Odoo...
+2026-03-05T01:10:49.438+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticating with Odoo...
+2026-03-05T01:10:50.073+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Authenticated with UID: 2
+2026-03-05T01:10:50.159+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Odoo raw result: [{id=9, name=Apples, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=11, name=Pears, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=13, name=garlic, list_price=40.0, qty_available=60.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=12, name=plums, list_price=50.0, qty_available=50.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=10, name=strawberries, list_price=40.0, qty_available=40.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}, {id=14, name=watermelon, list_price=30.0, qty_available=80.0, type=consu, sale_ok=true, active=true, categ_id=[4, Food], description_sale=false}]
+2026-03-05T01:10:50.160+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Fetched 6 products from Odoo
+2026-03-05T01:10:50.424+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.s.odooClientService.OdooClient   : Product sync completed
+2026-03-05T01:10:50.458+02:00  INFO 527948 --- [subserve-backend] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-03-05T01:10:50.459+02:00  WARN 527948 --- [subserve-backend] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-03-05T01:10:50.884+02:00  INFO 527948 --- [subserve-backend] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-03-05T01:10:50.894+02:00  INFO 527948 --- [subserve-backend] [restartedMain] c.z.s.s.SubserveBackendApplication       : Started SubserveBackendApplication in 6.145 seconds (process running for 6.596)
+2026-03-05T01:11:06.570+02:00  INFO 527948 --- [subserve-backend] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-05T01:11:06.576+02:00  INFO 527948 --- [subserve-backend] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-05T01:11:06.588+02:00  INFO 527948 --- [subserve-backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-05T01:11:06.595+02:00  INFO 527948 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-05T01:11:06.607+02:00  INFO 527948 --- [subserve-backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

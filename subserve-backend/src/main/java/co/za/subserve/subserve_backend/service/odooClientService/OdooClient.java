@@ -68,11 +68,23 @@ public class OdooClient {
                                 List.of(
                                         List.of(
                                                 List.of("sale_ok", "=", true),
-                                                List.of("active", "=", true)
+                                                List.of("active", "=", true),
+                                                List.of("type", "in", List.of("consu", "product")),
+                                                List.of("categ_id", "in", List.of(4)) // only Food category
                                         )
                                 ),
                                 Map.of(
-                                        "fields", List.of("id", "name", "list_price", "qty_available")
+                                        "fields", List.of(
+                                                "id",
+                                                "name",
+                                                "list_price",
+                                                "qty_available",
+                                                "type",
+                                                "sale_ok",
+                                                "active",
+                                                "categ_id",
+                                                "description_sale"
+                                        )
                                 )
                         )
                 ),
@@ -85,7 +97,7 @@ public class OdooClient {
                         request,
                         OdooResponse.class
                 );
-        log.info("Odoo fetch response: {}", response.getBody());
+        log.info("Odoo raw result: {}", response.getBody().getResult());
         return mapToDTO(response.getBody());
     }
 
@@ -103,8 +115,15 @@ public class OdooClient {
 
                     String name = (String) productMap.get("name");
 
-                    String description = (String) productMap.get("description");
-                    String category = (String) productMap.get("category");
+                    String description = productMap.get("description_sale") instanceof String
+                            ? (String) productMap.get("description_sale")
+                            : null;
+
+                    List<Object> categoryData = (List<Object>) productMap.get("categ_id");
+                    String category = null;
+                    if (categoryData != null && categoryData.size() > 1) {
+                        category = categoryData.get(1).toString();
+                    }
 
                     BigDecimal price = new BigDecimal(
                             productMap.get("list_price").toString()
