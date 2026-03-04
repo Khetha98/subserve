@@ -5,11 +5,12 @@ import { environment } from '../../environments/environment.development';
 
 @Injectable({ providedIn: 'root' })
 export class ProductService {
-  private api = environment.apiBaseUrl;
+
+  private api = 'http://localhost:9091/api/products';
 
   constructor(private http: HttpClient) {}
 
   getProducts() {
-    return this.http.get<ProductModel[]>(`${this.api}/api/products`);
+    return this.http.get<ProductModel[]>(this.api);
   }
 }

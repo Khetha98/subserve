@@ -5,6 +5,7 @@ import { Navbar } from '../../components/navbar/navbar';
 import { ProductModel } from '../../interfaces/product.model';
 import { ProductService } from '../../services/product.service';
 import { ProductCardComponent } from '../../components/product-card/product-card';
+import { CLIENT_RENEG_LIMIT } from 'tls';
 
 @Component({
   selector: 'app-home',
@@ -17,13 +18,15 @@ import { ProductCardComponent } from '../../components/product-card/product-card
   styleUrl: './home.scss',
 })
 export class HomeComponent {
-    products: ProductModel[] = [];
 
   constructor(private productService: ProductService) {}
 
+  products: ProductModel[] = [];
+
   ngOnInit() {
-    this.productService.getProducts().subscribe((data) => {
+    this.productService.getProducts().subscribe(data => {
       this.products = data;
+      console.log("products are:", this.products);
     });
   }
 }
