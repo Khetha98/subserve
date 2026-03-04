@@ -1,14 +1,13 @@
 package co.za.subserve.subserve_backend.model;
 
 import co.za.subserve.subserve_backend.enums.CartStatus;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.annotations.CreationTimestamp;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -20,7 +19,11 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    private UUID userId;
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+    @Enumerated(EnumType.STRING)
     private CartStatus status;
-    private String createdAt;
+    @CreationTimestamp
+    private LocalDateTime createdAt;
 }

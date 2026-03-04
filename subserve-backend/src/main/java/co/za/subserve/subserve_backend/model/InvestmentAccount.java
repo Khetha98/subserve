@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 @Entity
@@ -18,7 +19,7 @@ public class InvestmentAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
-    private String balance;
-    private String ROI;
+    private BigDecimal balance;
+    private BigDecimal ROI;
     private String riskLevel;
 }

@@ -6,10 +6,14 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import jakarta.persistence.*;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.time.LocalDateTime;
 import java.util.Collection;
 import java.util.List;
 import java.util.UUID;
@@ -29,24 +33,27 @@ public class User implements UserDetails {
     private String email;
     private String  phone;
     private String  passwordHash;
+    @Enumerated(EnumType.STRING)
     private UserRole role;
     public boolean isVerified;
-    public String createdAt;
-    public String updatedAt;
+    @CreationTimestamp
+    public LocalDateTime createdAt;
+    @UpdateTimestamp
+    public LocalDateTime updatedAt;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of();
+        return List.of(new SimpleGrantedAuthority("ROLE_" + role.name()));
     }
 
     @Override
     public @Nullable String getPassword() {
-        return "";
+        return passwordHash;
     }
 
     @Override
     public String getUsername() {
-        return "";
+        return email;
     }
 
     @Override

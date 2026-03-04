@@ -1,14 +1,13 @@
 package co.za.subserve.subserve_backend.model;
 
 import co.za.subserve.subserve_backend.enums.DeliveryStatus;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.annotations.UpdateTimestamp;
 
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -22,6 +21,8 @@ public class DeliveryTracking {
     private UUID orderId;
     private String courierName;
     private String trackingNumber;
+    @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
-    private String lastUpdated;
+    @UpdateTimestamp
+    private LocalDateTime lastUpdated;
 }

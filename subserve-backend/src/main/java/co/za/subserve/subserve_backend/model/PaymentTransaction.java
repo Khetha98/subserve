@@ -2,14 +2,14 @@ package co.za.subserve.subserve_backend.model;
 
 import co.za.subserve.subserve_backend.enums.PaymentStatus;
 import co.za.subserve.subserve_backend.enums.TransactionProvider;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.annotations.CreationTimestamp;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
@@ -21,10 +21,14 @@ public class PaymentTransaction {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private UUID orderId;
+    @Enumerated(EnumType.STRING)
     private TransactionProvider provider;
     private String providerReference;
-    private String amount;
+    private BigDecimal amount;
+    @Column(length = 3)
     private String currency;
+    @Enumerated(EnumType.STRING)
     private PaymentStatus status;
-    private String createdAt;
+    @CreationTimestamp
+    private LocalDateTime createdAt;
 }

@@ -1,9 +1,6 @@
 package co.za.subserve.subserve_backend.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -18,8 +15,12 @@ public class CartItem {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
-    private UUID cartId;
-    private UUID productSnapshotId;
+    @ManyToOne
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
+    @ManyToOne
+    @JoinColumn(name = "product_snapshot_id")
+    private ProductSnapshot product;
     private int quantity;
     private String priceAtTime;
 }
