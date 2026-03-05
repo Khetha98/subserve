@@ -1,7 +1,14 @@
 export interface ProductModel {
-  id: string;
+ id: number;
   name: string;
-  description: string;
-  imageUrl: string;
+
   price: number;
+
+  stock: number;
+
+  description?: string;
+
+  category?: string;
+
+  image?: string;
 }
