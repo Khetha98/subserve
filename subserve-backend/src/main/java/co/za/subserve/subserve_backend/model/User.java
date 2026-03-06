@@ -2,6 +2,7 @@ package co.za.subserve.subserve_backend.model;
 
 
 import co.za.subserve.subserve_backend.enums.UserRole;
+import co.za.subserve.subserve_backend.enums.UserStatus;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -40,6 +41,8 @@ public class User implements UserDetails {
     public LocalDateTime createdAt;
     @UpdateTimestamp
     public LocalDateTime updatedAt;
+    @Enumerated(EnumType.STRING)
+    private UserStatus status;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
