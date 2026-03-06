@@ -1,1 +1,46 @@
-<p>register works!</p>
+<div class="max-w-md mx-auto mt-20 p-6 bg-white rounded-lg shadow">
+
+  <h1 class="text-2xl font-bold mb-6 text-center">
+    Create Account
+  </h1>
+
+  <form [formGroup]="registerForm" (ngSubmit)="register()">
+
+    <input
+      type="text"
+      placeholder="Full Name"
+      formControlName="fullName"
+      class="w-full border p-3 rounded mb-4"
+    >
+
+    <input
+      type="email"
+      placeholder="Email"
+      formControlName="email"
+      class="w-full border p-3 rounded mb-4"
+    >
+
+    <input
+      type="text"
+      placeholder="Phone"
+      formControlName="phone"
+      class="w-full border p-3 rounded mb-4"
+    >
+
+    <input
+      type="password"
+      placeholder="Password"
+      formControlName="password"
+      class="w-full border p-3 rounded mb-6"
+    >
+
+    <button
+      type="submit"
+      class="w-full bg-green-600 text-white p-3 rounded hover:bg-green-700"
+    >
+      Register
+    </button>
+
+  </form>
+
+</div>
