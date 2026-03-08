@@ -5,8 +5,7 @@ import { CartWidget } from '../../components/cart-widget/cart-widget';
 
 @Component({
   selector: 'app-cart',
-  imports: [Footer,
-    Navbar,
+  imports: [
     CartWidget
   ],
   templateUrl: './cart.html',

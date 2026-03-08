@@ -1,8 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Component, inject } from '@angular/core';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
+import { Navbar } from '../../components/navbar/navbar';
+import { Footer } from '../../components/footer/footer';
 
 @Component({
   selector: 'app-register',
@@ -12,6 +14,8 @@ import { Router } from '@angular/router';
 })
 export class Register {
 
+  private fb = inject(FormBuilder); 
+
   registerForm = this.fb.group({
     fullName: ['', Validators.required],
     email: ['', [Validators.required, Validators.email]],
@@ -20,7 +24,6 @@ export class Register {
   })
 
   constructor(
-    private fb: FormBuilder,
     private authService: AuthService,
     private router: Router
   ) {}

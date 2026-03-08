@@ -4,8 +4,7 @@ import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-product',
-  imports: [Footer,
-    Navbar
+  imports: [
   ],
   templateUrl: './product.html',
   styleUrl: './product.scss',

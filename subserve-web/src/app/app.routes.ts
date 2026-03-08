@@ -7,6 +7,9 @@ import { CheckoutComponent } from './pages/checkout/checkout';
 import { DeliveryComponent } from './pages/delivery/delivery';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
+import { VasServices } from './pages/vas-services/vas-services';
+import { About } from './pages/about/about';
+import { Contact } from './pages/contact/contact';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,5 +19,9 @@ export const routes: Routes = [
   { path: 'checkout', component: CheckoutComponent },
   { path: 'delivery-areas', component: DeliveryComponent },
   {path:'login',component:Login},
-  {path:'register', component:Register}
+  {path:'register', component:Register},
+  {path:'products', component:ProductComponent},
+  {path:'services', component:VasServices},
+  {path:'about',component:About},
+  {path:'contact',component:Contact}
 ];

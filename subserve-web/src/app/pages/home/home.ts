@@ -9,9 +9,8 @@ import { CLIENT_RENEG_LIMIT } from 'tls';
 
 @Component({
   selector: 'app-home',
-  imports: [Footer,
+  imports: [
     CommonModule,
-    Navbar,
     ProductCardComponent
   ],
   templateUrl: './home.html',

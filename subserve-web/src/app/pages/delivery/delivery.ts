@@ -4,8 +4,7 @@ import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-delivery',
-  imports: [Footer,
-    Navbar
+  imports: [
   ],
   templateUrl: './delivery.html',
   styleUrl: './delivery.scss',

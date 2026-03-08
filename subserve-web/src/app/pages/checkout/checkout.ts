@@ -4,8 +4,7 @@ import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-checkout',
-  imports: [Footer,
-    Navbar
+  imports: [
   ],
   templateUrl: './checkout.html',
   styleUrl: './checkout.scss',

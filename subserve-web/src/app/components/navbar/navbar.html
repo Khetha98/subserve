@@ -5,19 +5,31 @@
     <button (click)="toggleMenu()" class="text-xl">☰</button>
 
     <a routerLink="/" class="flex items-center gap-2 font-semibold text-lg">
-      <img src="assets/logo.png" class="w-8 h-8 rounded-full" />
+      <img src="logo.png" class="w-8 h-8 rounded-full" />
       Subserve
     </a>
   </div>
 
-  <!-- Center -->
-  <input
-    type="text"
-    placeholder="Search products..."
-    class="px-3 py-2 rounded-md text-[#01352c] bg-[#e1eacd] w-full max-w-sm"
-    (keyup.enter)="onSearch(search.value)"
-    #search
-  />
+  <!-- Center Navigation -->
+  <div class="hidden md:flex items-center gap-6 font-medium">
+
+    <a routerLink="/products" class="hover:text-[#61b390]">
+      Products
+    </a>
+
+    <a routerLink="/services" class="hover:text-[#61b390]">
+      Services
+    </a>
+
+    <a routerLink="/about" class="hover:text-[#61b390]">
+      About
+    </a>
+
+    <a routerLink="/contact" class="hover:text-[#61b390]">
+      Contact
+    </a>
+
+  </div>
 
   <!-- Right -->
   <div class="flex items-center gap-4">
@@ -42,6 +54,7 @@
 
     <ng-template #guest>
       <a routerLink="/login">Login</a>
+      <a routerLink="/register">Register</a>
     </ng-template>
 
   </div>
