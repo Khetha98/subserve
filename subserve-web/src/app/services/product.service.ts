@@ -14,7 +14,7 @@ export class ProductService {
     return this.http.get<ProductModel[]>(this.api);
   }
 
-  getProduct(id:Number){
-    return this.http.post<ProductModel>(this.api, id);
+  getProduct(id: number) {
+    return this.http.get<ProductModel>(`${this.api}/${id}`);
   }
 }

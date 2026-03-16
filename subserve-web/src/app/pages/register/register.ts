@@ -3,8 +3,6 @@ import { Component, inject } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
-import { Navbar } from '../../components/navbar/navbar';
-import { Footer } from '../../components/footer/footer';
 
 @Component({
   selector: 'app-register',
@@ -16,34 +14,39 @@ export class Register {
 
   private fb = inject(FormBuilder); 
 
-  registerForm = this.fb.group({
-    fullName: ['', Validators.required],
-    email: ['', [Validators.required, Validators.email]],
-    phone: [''],
-    password: ['', [Validators.required, Validators.minLength(6)]]
-  })
+registerForm = this.fb.group({
+
+  fullName: ['', Validators.required],
+
+  email: ['', [Validators.required, Validators.email]],
+
+  phone: [''],
+
+  role: ['CUSTOMER', Validators.required],
+
+  password: ['', [Validators.required, Validators.minLength(6)]]
+
+})
 
   constructor(
     private authService: AuthService,
     private router: Router
   ) {}
 
-  register() {
+register() {
 
-    if (this.registerForm.invalid) return
+  if (this.registerForm.invalid) return
 
-    const payload = {
-      ...this.registerForm.value,
-      role: 'CUSTOMER'
-    }
+  this.authService.register(this.registerForm.value).subscribe({
 
-    this.authService.register(payload).subscribe({
-      next: () => {
-        this.router.navigate(['/login'])
-      },
-      error: err => console.error(err)
-    })
+    next: () => {
+      this.router.navigate(['/login'])
+    },
 
-  }
+    error: err => console.error(err)
+
+  })
+
+}
 
 }

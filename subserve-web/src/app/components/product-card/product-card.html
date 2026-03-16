@@ -1,9 +1,10 @@
 <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-4">
 
-  <img
-    class="h-48 w-full object-cover rounded-lg"
-    [src]="'data:image/png;base64,' + product.image"
-  />
+<img
+  *ngIf="product.image"
+  [src]="product.image"
+  class="w-full h-48 object-cover rounded-lg"
+/>
 
   <h3 class="text-lg font-semibold mt-3">
     {{product.name}}

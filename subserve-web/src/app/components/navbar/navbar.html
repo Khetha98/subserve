@@ -4,9 +4,12 @@
   <div class="flex items-center gap-4">
     <button (click)="toggleMenu()" class="text-xl">☰</button>
 
-    <a routerLink="/" class="flex items-center gap-2 font-semibold text-lg">
+    <a routerLink="/" routerLinkActive="active" class="flex items-center gap-2 font-semibold text-lg"
+      (click)="goHome()"
+    >
+       Subserve
       <img src="logo.png" class="w-8 h-8 rounded-full" />
-      Subserve
+      
     </a>
   </div>
 
@@ -46,11 +49,30 @@
 
     <a routerLink="/cart">🛒</a>
 
-    <ng-container *ngIf="isLoggedIn; else guest">
-      <div class="w-8 h-8 bg-[#61b390] rounded-full flex items-center justify-center cursor-pointer">
-        K
+  <ng-container *ngIf="isLoggedIn; else guest">
+
+    <div class="flex items-center gap-3">
+
+      <a routerLink="/profile" class="hover:text-[#61b390]">
+        Profile
+      </a>
+
+      <button
+        (click)="logout()"
+        class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+      >
+        Logout
+      </button>
+
+      <div
+        class="w-8 h-8 bg-[#61b390] rounded-full flex items-center justify-center font-semibold"
+      >
+        U
       </div>
-    </ng-container>
+
+    </div>
+
+  </ng-container>
 
     <ng-template #guest>
       <a routerLink="/login">Login</a>

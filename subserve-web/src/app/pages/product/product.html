@@ -1,13 +1,8 @@
-<div class="product-detail max-w-4xl mx-auto p-6 bg-white rounded-xl border border-[#bad8b6] shadow-sm mt-6">
-  <!--
-  <img [src]="product.image" class="w-full h-64 object-cover rounded-lg mb-4" />
-  <h2 class="text-2xl font-semibold text-[#01352c]">{{ product.name }}</h2>
-  <p class="text-[#61b390] font-bold my-2">{{ product.price | currency: currentCurrency }}</p>
-  <button
-    (click)="addToCart(product)"
-    class="bg-[#61b390] text-[#01352c] px-4 py-2 rounded-md hover:bg-[#4aa982] transition"
-  >
-    Add to cart
-  </button>
-  -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+  <app-product-card
+    *ngFor="let p of products"
+    [product]="p">
+  </app-product-card>
+
 </div>
