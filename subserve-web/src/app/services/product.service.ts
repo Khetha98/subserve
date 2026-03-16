@@ -14,7 +14,7 @@ export class ProductService {
     return this.http.get<ProductModel[]>(this.api);
   }
 
-  getProduct(id: number) {
+  getProduct(id: string|null) {
     return this.http.get<ProductModel>(`${this.api}/${id}`);
   }
 }

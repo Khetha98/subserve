@@ -18,16 +18,27 @@ export class ProductDetail implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService
-  ) {}
+  ) {
+    console.log("ProductDetail constructor called");
+  }
 
-  ngOnInit(): void {
+ngOnInit(): void {
 
-    const id = Number(this.route.snapshot.paramMap.get('id'));
+  this.route.paramMap.subscribe(params => {
+
+    const id = params.get('id');
+
+    if (!id) return;
 
     this.productService.getProduct(id).subscribe({
-      next: (data) => this.product = data,
+      next: (data) => {
+        console.log("Product received:", data);
+        this.product = data;
+      },
       error: (err) => console.error(err)
     });
 
-  }
+  });
+
+}
 }

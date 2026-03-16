@@ -1,5 +1,6 @@
 export interface ProductModel {
- id: number;
+ id: string;
+ odooProductId:Number;
   name: string;
 
   price: number;
