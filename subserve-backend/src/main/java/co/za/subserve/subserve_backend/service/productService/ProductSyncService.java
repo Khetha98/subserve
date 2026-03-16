@@ -57,6 +57,7 @@ public class ProductSyncService {
                 p.setPrice(dto.getPrice());
                 p.setStock(dto.getStock());
                 p.setCategory(dto.getCategory());
+                p.setImage(dto.getImage());
                 p.setActive(true);
                 productRepo.save(p);
             });

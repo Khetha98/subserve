@@ -43,11 +43,11 @@ public class AuthService
     @Transactional
     public User register(RegisterUserDto input) {
 
-        User user = userRepository.findByEmail(input.getEmail()).orElseThrow();
+        boolean exist = userRepository.findByEmail(input.getEmail()).isPresent();
 
         // FIRST TIME: create organization
-        if (user == null) {
-            user = new User();
+        if (!exist) {
+            User user = new User();
             user.setFullName(input.getFullName());
             user.setEmail(input.getEmail());
             user.setStatus(UserStatus.ACTIVE);
