@@ -10,5 +10,5 @@ export interface ProductModel {
 
   category?: string;
 
-  image?: string;
+  imageUrl?: string;
 }
