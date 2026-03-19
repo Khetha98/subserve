@@ -7,6 +7,8 @@ import { environment } from '../../environments/environment.development';
 export class ProductService {
 
   private api = 'http://localhost:9091/api/products';
+  
+  products: ProductModel[] = [];
 
   constructor(private http: HttpClient) {}
 

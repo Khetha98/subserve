@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Footer } from '../../components/footer/footer';
-import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-products',
@@ -9,4 +7,13 @@ import { Navbar } from '../../components/navbar/navbar';
   templateUrl: './products.html',
   styleUrl: './products.scss',
 })
-export class ProductComponent {}
+export class ProductsComponent {
+
+  constructor(){
+    console.log("called products constructor!!");
+  }
+
+  ngOnInit(){
+
+  }
+}

@@ -5,27 +5,32 @@ import { ProductModel } from '../../interfaces/product.model';
 import { ProductService } from '../../services/product.service';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from '../../components/product-card/product-card';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-product',
   imports: [
     CommonModule,
-    ProductCardComponent
+    ProductCardComponent,
   ],
   templateUrl: './product.html',
   styleUrl: './product.scss',
 })
 export class ProductComponent {
 
-  products: ProductModel[] = [];
 
-  constructor(private productService: ProductService) {}
+  products$!: Observable<any>;
+  constructor(public productService: ProductService) {
+    console.log("called product constructor!!");
+  }
 
   ngOnInit() {
-    this.productService.getProducts().subscribe(data => {
-      this.products = data;
-      console.log(data);
-    });
+    this.products$ = this.productService.getProducts();
+      this.products$.subscribe({
+    next: data => console.log("DATA RECEIVED:", data),
+    error: err => console.error("ERROR:", err),
+    complete: () => console.log("COMPLETED")
+  });
   }
 
 }

@@ -19,13 +19,13 @@ import { RouterLink } from '@angular/router';
 })
 export class HomeComponent {
 
-  products: ProductModel[] = [];
+  
 
-  constructor(private productService: ProductService) {}
+  constructor(public productService: ProductService) {}
 
   ngOnInit() {
     this.productService.getProducts().subscribe(data => {
-      this.products = data;
+      this.productService.products = data;
       console.log(data);
     });
   }
