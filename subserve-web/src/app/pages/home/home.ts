@@ -10,9 +10,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-home',
   imports: [
-    CommonModule,
-    ProductCardComponent,
-    RouterLink
+    CommonModule
   ],
   templateUrl: './home.html',
   styleUrl: './home.scss',
@@ -26,7 +24,7 @@ export class HomeComponent {
   ngOnInit() {
     this.productService.getProducts().subscribe(data => {
       this.productService.products = data;
-      console.log(data);
+      //console.log(data);
     });
   }
 

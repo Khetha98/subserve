@@ -83,8 +83,7 @@ public class OdooClient {
                                                 "sale_ok",
                                                 "active",
                                                 "categ_id",
-                                                "description_sale",
-                                                "image_1920"
+                                                "description_sale"
                                         )
                                 )
                         )
@@ -115,13 +114,17 @@ public class OdooClient {
                     Long id = ((Number) productMap.get("id")).longValue();
 
                     String name = (String) productMap.get("name");
-                    String base64 = (String) productMap.get("image_1920");
+                    //String base64 = (String) productMap.get("image_1920");
 
-                    String image = null;
+                    //String image = null;
 
-                    if (base64 != null && !base64.isEmpty()) {
-                        image = "data:image/png;base64," + base64;
-                    }
+                    //if (base64 != null && !base64.isEmpty()) {
+                    //    image = "data:image/png;base64," + base64;
+                    //}
+                    String imageUrl =
+                            "http://localhost:8069/web/image/product.template/"
+                                    + id +
+                                    "/image_512";
 
                     String description = productMap.get("description_sale") instanceof String
                             ? (String) productMap.get("description_sale")
@@ -141,7 +144,7 @@ public class OdooClient {
                             productMap.get("qty_available").toString()
                     );
 
-                    return new OdooProductDTO(id, name, price, stock, category, image,description);
+                    return new OdooProductDTO(id, name, price, stock, category, imageUrl,description);
                 })
                 .toList();
     }

@@ -1,42 +1,180 @@
 <section class="px-6 py-16 max-w-6xl mx-auto">
 
   <h1 class="text-3xl font-bold text-[#01352c] mb-10 text-center">
-    Community Services
+    Community & Digital Services
   </h1>
 
   <div class="grid md:grid-cols-3 gap-6">
 
-    <div class="p-6 bg-white shadow rounded-lg">
-      <h2 class="font-semibold text-lg">Printing</h2>
+    <!-- Pillar 1: Digital Governance & Public Helpdesk -->
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#01352c]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Public Helpdesk</span>
+      <h2 class="font-semibold text-lg mt-1">eHomeAffairs Appointments</h2>
       <p class="text-sm text-gray-600 mt-2">
-        Print documents quickly.
+        Assistance with online Smart ID and passport applications & slot bookings.
       </p>
-      <button routerLink="/services/print"
-        class="mt-4 bg-[#61b390] px-4 py-2 rounded">
-        Request
-      </button>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R50 – R100</span>
+        <button routerLink="/services/home-affairs" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
     </div>
 
-    <div class="p-6 bg-white shadow rounded-lg">
-      <h2 class="font-semibold text-lg">Scanning</h2>
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#01352c]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Public Helpdesk</span>
+      <h2 class="font-semibold text-lg mt-1">SARS eFiling Support</h2>
       <p class="text-sm text-gray-600 mt-2">
-        Scan your documents securely.
+        Retrieving tax numbers, checking compliance status, and downloading Statement of Accounts.
       </p>
-      <button routerLink="/services/scan"
-        class="mt-4 bg-[#61b390] px-4 py-2 rounded">
-        Request
-      </button>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R100 – R250</span>
+        <button routerLink="/services/sars" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
     </div>
 
-    <div class="p-6 bg-white shadow rounded-lg">
-      <h2 class="font-semibold text-lg">Home Affairs Booking</h2>
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#01352c]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Public Helpdesk</span>
+      <h2 class="font-semibold text-lg mt-1">PSIRA & Security Verifications</h2>
       <p class="text-sm text-gray-600 mt-2">
-        Assistance with bookings.
+        Verification and status checks for local security personnel and businesses.
       </p>
-      <button routerLink="/services/home-affairs"
-        class="mt-4 bg-[#61b390] px-4 py-2 rounded">
-        Request
-      </button>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R50 – R100</span>
+        <button routerLink="/services/psira" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#01352c]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Public Helpdesk</span>
+      <h2 class="font-semibold text-lg mt-1">SASSA & SRD Applications</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Tracking grant statuses, updating banking details, and application appeals.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R30 – R80</span>
+        <button routerLink="/services/sassa" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <!-- Pillar 2: Career, Business Setup & Document Services -->
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#61b390]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Career & Admin</span>
+      <h2 class="font-semibold text-lg mt-1">Professional ATS CV Design</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Modern, ATS-friendly CV creation, formatting, and tailored cover letters.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R80 – R150</span>
+        <button routerLink="/services/cv-design" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#61b390]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Document Hub</span>
+      <h2 class="font-semibold text-lg mt-1">A4 / A3 Printing & Copying</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        High-resolution monochrome and color printing on Canon iX6840 infrastructure.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">From R5/page</span>
+        <button routerLink="/services/print" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#61b390]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Document Hub</span>
+      <h2 class="font-semibold text-lg mt-1">Scanning & Digital Archiving</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Secure document scanning directly to email or USB storage.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R5 – R15</span>
+        <button routerLink="/services/scan" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#61b390]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Document Hub</span>
+      <h2 class="font-semibold text-lg mt-1">Heavy-Duty A4 / A3 Lamination</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Weatherproof pouch lamination for certificates and zinc outdoor signs.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R15 – R350</span>
+        <button routerLink="/services/lamination" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-[#61b390]">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Business Setup</span>
+      <h2 class="font-semibold text-lg mt-1">CIPC & Tax Registration</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        New company registrations, Director amendments, and Tax Compliance PINs.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R350 – R850</span>
+        <button routerLink="/services/cipc" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <!-- Pillar 3: Tech Support & IT Services -->
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-gray-800">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Tech Support</span>
+      <h2 class="font-semibold text-lg mt-1">OS Installation & Upgrades</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Clean installs of Windows 10/11 or Ubuntu Linux, dual-boot setups, and driver updates.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R250 – R450</span>
+        <button routerLink="/services/os-install" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-gray-800">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">Tech Support</span>
+      <h2 class="font-semibold text-lg mt-1">Software & Virus Removal</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Malware cleanup, office suite configuration, and PC speed optimization.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">R200 – R350</span>
+        <button routerLink="/services/troubleshoot" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
+    </div>
+
+    <div class="p-6 bg-white shadow rounded-lg border-t-4 border-gray-800">
+      <span class="text-xs font-semibold uppercase tracking-wider text-gray-500">SMME Software</span>
+      <h2 class="font-semibold text-lg mt-1">Custom POS & Booking Systems</h2>
+      <p class="text-sm text-gray-600 mt-2">
+        Odoo/ERPNext POS setups, QloApps B&B booking engines, and thermal receipt integration.
+      </p>
+      <div class="mt-4 flex justify-between items-center">
+        <span class="text-xs font-bold text-[#01352c]">From R1,500</span>
+        <button routerLink="/services/pos-setup" class="bg-[#61b390] text-white px-4 py-2 rounded text-sm hover:bg-[#01352c] transition-colors">
+          Request
+        </button>
+      </div>
     </div>
 
   </div>

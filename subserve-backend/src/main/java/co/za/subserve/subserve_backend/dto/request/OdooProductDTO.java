@@ -16,6 +16,6 @@ public class OdooProductDTO {
     private BigDecimal price;
     private BigDecimal stock;
     private String category;
-    private String image;
+    private String imageUrl;
     private String description;
 }
