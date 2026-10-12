@@ -29,7 +29,7 @@ jobs:
       - name: Build Production Bundle (with Base Href)
         run: |
           cd subserve-web
-          npx ng build --configuration production --base-href=/subserve/
+          npx ng build --configuration production --base-href=/
           cp dist/subserve-web/browser/index.html dist/subserve-web/browser/404.html
 
       - name: Deploy to GitHub Pages
