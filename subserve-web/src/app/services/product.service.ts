@@ -17,6 +17,7 @@ export class ProductService {
   }
 
   getProduct(id: string|null) {
-    return this.http.get<ProductModel>(`${this.api}/${id}`);
+    //return this.http.get<ProductModel>(`${this.api}/${id}`);
+    return;
   }
 }

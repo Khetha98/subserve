@@ -11,6 +11,7 @@ import { Contact } from './pages/contact/contact';
 import { Profile } from './pages/profile/profile';
 import { ProductDetail } from './pages/product-detail/product-detail';
 import { ProductComponent } from './pages/product/product';
+import { Orders } from './pages/orders/orders';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,4 +26,6 @@ export const routes: Routes = [
   {path:'about',component:About},
   {path:'contact',component:Contact},
   {path:'profile', component:Profile},
+  {path:'orders', component:Orders}
 ];
+

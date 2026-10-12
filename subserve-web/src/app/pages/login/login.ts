@@ -1,11 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Navbar } from '../../components/navbar/navbar';
-import { Footer } from '../../components/footer/footer';
 
 @Component({
   selector: 'app-login',
@@ -28,20 +25,23 @@ export class Login {
   ) {}
 
   login() {
-
-    if (this.loginForm.invalid) return
+    if (this.loginForm.invalid) return;
 
     this.authService.login(
       this.loginForm.value.email!,
       this.loginForm.value.password!
     ).subscribe({
-      next: () => {
-        this.router.navigate(['/'])
+      next: (response: any) => {
+        // Optional: Check user role returned from backend auth service to redirect admins to admin dashboard
+        if (response && response.role === 'ADMIN') {
+          this.router.navigate(['/admin/dashboard']);
+        } else {
+          this.router.navigate(['/']);
+        }
       },
       error: err => {
-        console.error(err)
+        console.error('Login error:', err);
       }
-    })
+    });
   }
-
 }

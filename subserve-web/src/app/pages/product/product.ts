@@ -25,12 +25,12 @@ export class ProductComponent {
   }
 
   ngOnInit() {
-    this.products$ = this.productService.getProducts();
-      this.products$.subscribe({
-    next: data => console.log("DATA RECEIVED:", data),
-    error: err => console.error("ERROR:", err),
-    complete: () => console.log("COMPLETED")
-  });
+    //this.products$ = this.productService.getProducts();
+     // this.products$.subscribe({
+    //next: data => console.log("DATA RECEIVED:", data),
+    //error: err => console.error("ERROR:", err),
+    //complete: () => console.log("COMPLETED")
+  //});
   }
 
 }

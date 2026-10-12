@@ -26,17 +26,17 @@ ngOnInit(): void {
 
   this.route.paramMap.subscribe(params => {
 
-    const id = params.get('id');
+    //const id = params.get('id');
 
-    if (!id) return;
+    //if (!id) return;
 
-    this.productService.getProduct(id).subscribe({
-      next: (data) => {
-        console.log("Product received:", data);
-        this.product = data;
-      },
-      error: (err) => console.error(err)
-    });
+    //this.productService.getProduct(id).subscribe({
+      //next: (data) => {
+        //console.log("Product received:", data);
+        //this.product = data;
+      //},
+      //error: (err) => console.error(err)
+    //});
 
   });
 

@@ -22,10 +22,10 @@ export class HomeComponent {
   constructor(public productService: ProductService) {}
 
   ngOnInit() {
-    this.productService.getProducts().subscribe(data => {
-      this.productService.products = data;
+    //this.productService.getProducts().subscribe(data => {
+      //this.productService.products = data;
       //console.log(data);
-    });
+    //});
   }
 
 }

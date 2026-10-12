@@ -1,34 +1,33 @@
-<nav class="bg-[#01352c] text-[#e1eacd] px-6 py-4 flex items-center justify-between">
+<nav class="bg-[#01352c] text-[#e1eacd] px-6 py-4 flex items-center justify-between shadow-md">
 
   <!-- Left -->
   <div class="flex items-center gap-4">
     <button (click)="toggleMenu()" class="text-xl">☰</button>
 
-    <a routerLink="/" routerLinkActive="active" class="flex items-center gap-2 font-semibold text-lg"
+    <a routerLink="/" routerLinkActive="active" class="flex items-center gap-2 font-semibold text-lg cursor-pointer"
       (click)="goHome()"
     >
-       Subserve
-      <img src="logo.png" class="w-8 h-8 rounded-full" />
-      
+       Subserve Digital
+      <img src="logo.png" class="w-8 h-8 rounded-full border border-[#61b390]" />
     </a>
   </div>
 
   <!-- Center Navigation -->
   <div class="hidden md:flex items-center gap-6 font-medium">
 
-    <!-- <a routerLink="/products" class="hover:text-[#61b390]">
-      Products
-    </a> -->
-
-    <a routerLink="/services" class="hover:text-[#61b390]">
+    <a routerLink="/services" routerLinkActive="text-[#61b390]" class="hover:text-[#61b390] transition-colors">
       Services
     </a>
 
-    <a routerLink="/about" class="hover:text-[#61b390]">
+    <a routerLink="/orders" routerLinkActive="text-[#61b390]" class="hover:text-[#61b390] transition-colors">
+      Orders
+    </a>
+
+    <a routerLink="/about" routerLinkActive="text-[#61b390]" class="hover:text-[#61b390] transition-colors">
       About
     </a>
 
-    <a routerLink="/contact" class="hover:text-[#61b390]">
+    <a routerLink="/contact" routerLinkActive="text-[#61b390]" class="hover:text-[#61b390] transition-colors">
       Contact
     </a>
 
@@ -37,46 +36,49 @@
   <!-- Right -->
   <div class="flex items-center gap-4">
 
+    <!-- ZAR Locked Selector -->
     <select
-      #currencySelect
-      (change)="changeCurrency(currencySelect.value)"
-      class="px-2 py-1 rounded-md bg-[#bad8b6] text-[#01352c]"
+      disabled
+      class="px-3 py-1 rounded-md bg-[#bad8b6] text-[#01352c] font-semibold text-sm cursor-not-allowed opacity-90"
+      title="Currency fixed to ZAR for South African operations"
     >
-      <option value="ZAR">ZAR</option>
-      <option value="USD">USD</option>
-      <option value="EUR">EUR</option>
+      <option value="ZAR">ZAR (R)</option>
     </select>
 
-    <a routerLink="/cart">🛒</a>
+    <a routerLink="/cart" class="hover:text-[#61b390] text-lg transition-colors" title="Shopping Cart">
+      🛒
+    </a>
 
-  <ng-container *ngIf="isLoggedIn; else guest">
+    <ng-container *ngIf="isLoggedIn; else guest">
 
-    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-3">
 
-      <a routerLink="/profile" class="hover:text-[#61b390]">
-        Profile
-      </a>
+        <a routerLink="/profile" class="hover:text-[#61b390] transition-colors text-sm font-medium">
+          Profile
+        </a>
 
-      <button
-        (click)="logout()"
-        class="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600"
-      >
-        Logout
-      </button>
+        <button
+          (click)="logout()"
+          class="px-3 py-1 bg-red-500 text-white rounded text-xs font-semibold hover:bg-red-600 transition-colors"
+        >
+          Logout
+        </button>
 
-      <div
-        class="w-8 h-8 bg-[#61b390] rounded-full flex items-center justify-center font-semibold"
-      >
-        U
+        <div
+          class="w-8 h-8 bg-[#61b390] text-[#01352c] rounded-full flex items-center justify-center font-bold text-sm shadow"
+        >
+          U
+        </div>
+
       </div>
 
-    </div>
-
-  </ng-container>
+    </ng-container>
 
     <ng-template #guest>
-      <a routerLink="/login">Login</a>
-      <a routerLink="/register">Register</a>
+      <div class="flex items-center gap-3 text-sm font-medium">
+        <a routerLink="/login" class="hover:text-[#61b390] transition-colors">Login</a>
+        <a routerLink="/register" class="bg-[#61b390] text-[#01352c] px-3 py-1 rounded font-semibold hover:bg-white transition-colors">Register</a>
+      </div>
     </ng-template>
 
   </div>

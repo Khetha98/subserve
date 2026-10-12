@@ -1,52 +1,42 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-navbar',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, RouterLinkActive],
   templateUrl: './navbar.html',
   styleUrl: './navbar.scss',
 })
 export class Navbar {
 
-  isMenuOpen = false
-  isLoggedIn = false
+  isMenuOpen = false;
+  isLoggedIn = false;
 
-  constructor(private authService: AuthService,
+  constructor(
+    private authService: AuthService,
     private router: Router
-  ) {
-  }
+  ) {}
 
   ngOnInit() {
-
     this.authService.isLoggedIn$.subscribe(state => {
-      this.isLoggedIn = state
-    })
-
+      this.isLoggedIn = state;
+    });
   }
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen
-  }
-
-  changeCurrency(currency: string) {
-    console.log('Currency changed to', currency)
+    this.isMenuOpen = !this.isMenuOpen;
   }
 
   logout() {
-
-    this.authService.logout()
-
-    this.router.navigate(['/'])
-
+    this.authService.logout();
+    this.router.navigate(['/']);
   }
 
-  goHome(){
-  this.router.navigateByUrl('/', { skipLocationChange: false }).then(() => {
-    this.router.navigate(['/']);
-  });
-}
-
+  goHome() {
+    this.router.navigateByUrl('/', { skipLocationChange: false }).then(() => {
+      this.router.navigate(['/']);
+    });
+  }
 }

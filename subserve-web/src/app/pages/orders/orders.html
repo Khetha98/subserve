@@ -1,1 +1,31 @@
-<p>orders works!</p>
+<section class="max-w-4xl mx-auto px-6 py-16 space-y-8">
+
+  <div class="text-center space-y-2">
+    <h1 class="text-3xl font-bold text-[#01352c]">
+      My Orders & Requests
+    </h1>
+    <p class="text-gray-600 text-sm">
+      Track the fulfillment status of your service requests and software implementations.
+    </p>
+  </div>
+
+  <!-- Empty State / Orders List -->
+  <div class="bg-white p-12 rounded-2xl shadow-md border border-gray-100 text-center space-y-4">
+    <div class="w-16 h-16 bg-[#61b390]/20 text-[#01352c] rounded-full flex items-center justify-center mx-auto text-2xl font-bold">
+      📦
+    </div>
+    <h2 class="text-xl font-semibold text-gray-800">No active orders found</h2>
+    <p class="text-sm text-gray-500 max-w-sm mx-auto">
+      You haven't placed any service requests or software deployment orders yet.
+    </p>
+    <div class="pt-4">
+      <button
+        routerLink="/services"
+        class="bg-[#61b390] hover:bg-[#01352c] text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-md text-sm"
+      >
+        Explore Services
+      </button>
+    </div>
+  </div>
+
+</section>
