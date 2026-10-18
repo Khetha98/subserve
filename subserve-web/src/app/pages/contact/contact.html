@@ -28,7 +28,7 @@
 
         <div class="flex items-start space-x-3">
           <span class="text-[#61b390] font-bold">WhatsApp / Tel:</span>
-          <span>+27 (0)70 000 0000 / Business Support</span>
+          <a href="https://wa.me/27810727951" class="hover:underline">+27 81 072 7951</a>
         </div>
 
         <div class="flex items-start space-x-3">
@@ -55,56 +55,73 @@
     <!-- Column 2: Interactive Contact Form -->
     <div class="bg-white p-8 rounded-2xl shadow-md border border-gray-100">
       
-      <form class="space-y-4">
+    <form (ngSubmit)="onSubmit()" class="space-y-4">
 
-        <div>
-          <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Full Name</label>
-          <input
-            type="text"
-            placeholder="e.g. Siyabonga Dlamini"
-            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
-            required
-          />
-        </div>
+      <div *ngIf="successMessage" class="p-3 bg-green-100 text-green-800 rounded-lg text-xs">
+        {{ successMessage }}
+      </div>
+      <div *ngIf="errorMessage" class="p-3 bg-red-100 text-red-800 rounded-lg text-xs">
+        {{ errorMessage }}
+      </div>
 
-        <div>
-          <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Email Address / WhatsApp No.</label>
-          <input
-            type="text"
-            placeholder="e.g. name@domain.co.za or 082 123 4567"
-            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
-            required
-          />
-        </div>
+      <div>
+        <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Full Name</label>
+        <input
+          type="text"
+          name="fullName"
+          [(ngModel)]="formData.fullName"
+          placeholder="e.g. Siyabonga Dlamini"
+          class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
+          required
+        />
+      </div>
 
-        <div>
-          <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Service Category</label>
-          <select class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] text-gray-700 transition-colors">
-            <option>Public Helpdesk (SARS, Home Affairs, PSIRA, SASSA)</option>
-            <option>SMME POS & ERP Setup (Odoo / ERPNext)</option>
-            <option>B&B Booking Management (QloApps)</option>
-            <option>CV Design & Professional Document Printing</option>
-            <option>Tech Support & OS Installation</option>
-            <option>General Inquiry</option>
-          </select>
-        </div>
+      <div>
+        <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Email Address / WhatsApp No.</label>
+        <input
+          type="text"
+          name="contactInfo"
+          [(ngModel)]="formData.contactInfo"
+          placeholder="e.g. name@domain.co.za or 082 123 4567"
+          class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
+          required
+        />
+      </div>
 
-        <div>
-          <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Message</label>
-          <textarea
-            rows="4"
-            placeholder="How can Subserve Digital assist your business or document request?"
-            class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
-            required></textarea>
-        </div>
+      <div>
+        <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Service Category</label>
+        <select 
+          name="serviceCategory"
+          [(ngModel)]="formData.serviceCategory"
+          class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] text-gray-700 transition-colors">
+          <option>Public Helpdesk (SARS, Home Affairs, PSIRA, SASSA)</option>
+          <option>SMME POS & ERP Setup (Odoo / ERPNext)</option>
+          <option>B&B Booking Management (QloApps)</option>
+          <option>CV Design & Professional Document Printing</option>
+          <option>Tech Support & OS Installation</option>
+          <option>General Inquiry</option>
+        </select>
+      </div>
 
-        <button
-          type="submit"
-          class="bg-[#61b390] hover:bg-[#01352c] text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors shadow-md">
-          Send Message
-        </button>
+      <div>
+        <label class="block text-xs font-semibold text-gray-700 uppercase mb-1">Message</label>
+        <textarea
+          rows="4"
+          name="message"
+          [(ngModel)]="formData.message"
+          placeholder="How can Subserve Digital assist your business or document request?"
+          class="w-full border border-gray-300 p-3 rounded-lg text-sm focus:outline-none focus:border-[#61b390] transition-colors"
+          required></textarea>
+      </div>
 
-      </form>
+      <button
+        type="submit"
+        [disabled]="isSubmitting"
+        class="bg-[#61b390] hover:bg-[#01352c] text-white font-semibold px-6 py-3 rounded-lg w-full transition-colors shadow-md">
+        {{ isSubmitting ? 'Sending...' : 'Send Message' }}
+      </button>
+
+    </form>
 
     </div>
 

@@ -32,8 +32,11 @@
             ],
             "styles": ["src/tailwind.css", "src/styles.scss"],
             "outputMode": "static",
-            "ssr": false
-          },
+            "ssr": false,
+            "prerender": {
+              "discoverRoutes": true
+            }
+                    },
           "configurations": {
             "production": {
               "budgets": [
